@@ -1,0 +1,24 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <!-- css end -->
+    <title>@ViewBag.title</title>
+    <meta content="@ViewBag.keywords" name="keywords">
+    <meta content="@ViewBag.description" name="description">
+
+    @RenderSection("head", false)
+</head>
+<body>
+
+    @RenderBody()
+
+
+    @RenderSection("bottomjs", false)
+
+</body>
+</html>
