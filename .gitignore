@@ -2,9 +2,6 @@
 *.pdb
 *.dll
 *.cache
-DTcms.Web/Web.Debug.config
-DTcms.Web/Web.Release.config
-DTcms.Web/Web.config
 DTcms.Common/obj/
 DTcms.Common/bin/
 DTcms.BLL/obj/
